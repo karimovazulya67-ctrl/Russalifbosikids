@@ -1,0 +1,6 @@
+{
+  "name": "Rus tili alifbosi - Bolalar uchun interaktiv ta'lim",
+  "description": "5-6 yoshli bog'cha tarbiyalanuvchilari uchun interaktiv rus tili alifbosi o'quv platformasi. O'yinlar, harf yozish mashqlari, audio talaffuz va tarbiyachi paneli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

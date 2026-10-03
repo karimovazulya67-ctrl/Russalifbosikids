@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Comfortaa', cursive, sans-serif;
+    --font-sans: 'Nunito', sans-serif;
+    --font-cursive: 'Neucha', cursive;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* High Contrast Mode for Accessibility */
+html.high-contrast {
+  filter: contrast(1.25);
+}
+
+html.high-contrast button {
+  border-width: 3px !important;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, footer, nav, button.print\\:hidden {
+    display: none !important;
+  }
+}
